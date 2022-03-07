@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Basket.API.Controllers {
 
     [ApiController]
-    [Route("api/ve/[controller]")]
+    [Route("api/v1/[controller]")]
     public class BasketController : ControllerBase
     {
         private IBasketRepository _repository;
