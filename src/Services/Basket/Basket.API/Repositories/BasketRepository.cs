@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 namespace Basket.API.Repositories {
     public class BasketRepository : IBasketRepository
     {
-        private IDistributedCache _redisCache;
+        private readonly IDistributedCache _redisCache;
 
         public BasketRepository(IDistributedCache redisCache)
         {
